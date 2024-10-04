@@ -1,60 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background-color: #333;
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
     color: white;
-    padding: 10px 0;
-    text-align: center;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-}
-
-section h2 {
-    color: #333;
-}
-
-.home, .about, .projects, .contact {
-    background-color: white;
-    margin: 10px auto;
-    max-width: 800px;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.projects .card {
+    margin-bottom: 30px;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-}
-
-a {
-    color: #333;
+    background-color: #f8f9fa;
+    padding: 10px 0;
 }
